@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>App de Chat</title>
+	const firebaseConfig = {
+		apiKey: "AIzaSyAJOobioHc0u0bKzqVO4Fe8oOlYySVmWms",
+		authDomain: "pagina-we-8dbc7.firebaseapp.com",
+		projectId: "pagina-we-8dbc7",
+		storageBucket: "pagina-we-8dbc7.appspot.com",
+		messagingSenderId: "679878151556",
+		appId: "1:679878151556:web:1b92663a9e60e42253a1d1"
+	  };
+
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <script src="chat.js"></script>
+</head>
+
+<body>
+	<center>
+		<h1 class="header">
+			App de chat <sup>
+				<img src="m2.png">
+			</sup>
+		</h1>
+		<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+			<img src="logo.png" class="logo">
+			<h3>Entérate de lo que pasa en el mundo ahora mismo</h3>
+			<h4>Únete a la App de chat hoy</h4>
+			<div class="form-group">
+				<label>Nombre de usuario:</label>
+            <input type="text" id="user_name" class="form-control" placeholder="Nombre de usuario">
+			</div>
+		<button id="login_buttom" class="btn btn-primary" onclick="addUser();">Iniciarsesión</button>
+			<br><br>
+		</div>
+	</center>
+</body>
+
+</html>
